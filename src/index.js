@@ -3,10 +3,13 @@ import validator from './validator.js';
 document.getElementById("myBut").addEventListener("click", function() {
   let cardNumber= document.getElementById("blankspace").value;
   document.getElementById("firstnumber").innerHTML= validator.maskify(cardNumber);
-  //Llamar a las unciones isValid y maskify
-  validator.isValid(cardNumber);
-  validator.maskify(cardNumber);
-
+  //Crear alertas con resultados de la validación
+  if (validator.isValid(cardNumber) === true) {
+    alert("Tu tarjeta fue validada con éxito");
+  }
+  else {
+    alert("Por favor ingresa un número válido");
+  }
 
   console.log(validator.isValid(cardNumber), validator.maskify(cardNumber));
 });

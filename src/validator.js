@@ -1,5 +1,6 @@
 const validator = {
   isValid(cardNumber){
+    if(cardNumber.length < 1) return false;
     let arrayNum= cardNumber.split(""); //convertir mi string en array
     let reverseNum= arrayNum.reverse(); //poner el número en reversa
 //crear variable para suma y booleana.

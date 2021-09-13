@@ -8,6 +8,25 @@ body {
  height: 148px;
  top:0;
 }
+.logo {
+  height: 147px;
+  position: absolute;
+}
+h1 {
+  position: absolute;
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 50px;
+  margin-top: 40px;
+  margin-left: 190px;
+}
+h2.enca {
+  position: absolute;
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 30px;
+  margin-top: 55px;
+  margin-left: 1030px;
+}
+
 #information {
   background-color: #301F3D;
   height: 200px;
@@ -37,18 +56,47 @@ body {
   width: 100px;
 }
 #card {
-  background-color: #E1C10A;
-  height: 150px;
+  background-image: url("fondo1.jpg");
+  height: 130px;
   width: 275px;
   margin: 0 auto;
   margin-top: 20px;
+  margin-bottom: 20px;
   padding: 20px;
   border-radius: 8px;
 }
+h3.ysabank {
+  position: absolute;
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 20px;
+  margin-top: 5px;
+}
+.chip {
+  position: absolute;
+  height: 40px;
+  border-radius: 8px;
+  margin-top: 40px;
+}
+#firstnumber {
+  position: absolute;
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 20px;
+  margin-top: 100px;
+  margin-left: 18px;
+}
 .footer {
   background-color: #20082B;
-  height: 67px;
+  height: 50px;
 }
-.main {
-
+h2.foot1 {
+  position: absolute;
+  font-size: 20px;
+  margin-top: 15px;
+  margin-left: 50px;
+}
+h3.foot2 {
+  position: absolute;
+  font-size: 15px;
+  margin-top: 20px;
+  margin-left: 1100px;
 }
