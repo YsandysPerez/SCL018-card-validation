@@ -11,5 +11,5 @@ document.getElementById("myBut").addEventListener("click", function() {
     alert("Por favor ingresa un número válido");
   }
 
-  console.log(validator.isValid(cardNumber), validator.maskify(cardNumber));
+  //console.log(validator.isValid(cardNumber), validator.maskify(cardNumber));
 });
