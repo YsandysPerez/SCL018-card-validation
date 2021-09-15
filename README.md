@@ -18,4 +18,4 @@ Prisma. Card-Validation:
   Desarrollé los eventos DOM para tomar el número escrito y exponerlo en la tarjeta digital, creé las alertas de "tarjeta válida" y "Tarjeta inválida".
 
   validator.js:
-  
+  En este apartartado se desarrollaron las funciones de isValid y Masfify, que validan la el número de tarjeta y lo enmascaran respectivamente.
