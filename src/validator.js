@@ -29,7 +29,7 @@ const validator = {
   },
   maskify(cardNumber){
 
-    const invNum= cardNumber.split("").reverse();
+    let invNum= cardNumber.split("").reverse();
     let secretNum= "";
      for(let i = 0; i<invNum.length; i++){
        if(i < 4){
@@ -39,7 +39,7 @@ const validator = {
          secretNum+= "#";
        }
       }
-    const maskNum= secretNum.split("").reverse().join("");
+    let maskNum= secretNum.split("").reverse().join("");
     return maskNum;
      }
 
